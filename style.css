@@ -13,7 +13,7 @@
 
 .primary-clr{
     font-size: 14px;
-    color: #d1d1d1;
+    color: #6a6a6a;
 }
 
 button {
@@ -23,6 +23,11 @@ button {
     background: red;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+
+span{
+    color: red;
 }
 
 /* Banner section style */
@@ -114,6 +119,93 @@ button {
     font-size: 14px;
     letter-spacing: 1px;
     color: #d1d1d1;
-    width: 525px;
+    width: 600px;
     padding-bottom: 40px;
+}
+
+.party-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 70px;
+    margin-bottom: 100px;
+}
+
+.party-img img {
+    width: 260px;
+}
+
+/* Booking area style */
+
+.booking{
+    background-image: linear-gradient(to bottom,#ffe6e6, white);
+    border-radius: 10px;
+}
+
+.booking-content {
+    margin-bottom: 100px;
+    padding: 100px 0;
+    text-align: center;
+    font-family: "Roboto", serif;
+}
+
+.booking-content * {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.booking-content button {
+    margin-top: 25px;
+}
+
+/* Coming soon area */
+
+.coming-soon-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-offer p {
+    width: 360px;
+    line-height: 20px;
+}
+
+.best-offer {
+    width: 100%;
+}
+
+.best-offer-img {
+    width: 100%;
+}
+
+.best-offer-img img {
+    width: 230px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.best-offer h3 {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.best-offer h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.new-year h1 {
+    font-size: 40px;
+    font-family: "Roboto", serif;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.new-year img {
+    width: 80px;
+    margin-top: 30px;
 }
