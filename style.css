@@ -158,7 +158,11 @@ span{
     margin-top: 25px;
 }
 
-/* Coming soon area */
+/* Coming soon area style */
+
+.coming-soon{
+    margin-bottom: 100px;
+}
 
 .coming-soon-main {
     display: flex;
@@ -208,4 +212,64 @@ span{
 .new-year img {
     width: 80px;
     margin-top: 30px;
+}
+
+/* Gift area style */
+
+.gift-img-top {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.gift-img-bottom {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.gift-item img {
+    width: 100%;
+}
+
+.gift-img-top {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.gift-img-bottom {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.gift-item img {
+    width: 100%;
+}
+
+.gift-content h3 {
+    font-family: "Roboto", serif;
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.gift-content h1 {
+    font-size: 35px;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+}
+
+.gift-content p {
+    width: 510px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.gift {
+    margin-bottom: 100px;
 }
