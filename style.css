@@ -4,8 +4,116 @@
     /* font-family: "Roboto", serif; */
 }
 
+/* Default CSS style */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.primary-clr{
+    font-size: 14px;
+    color: #d1d1d1;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
 /* Banner section style */
 
-#banner{
-    background-image: url("images/Banner\ Image.png");
+.banner{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgb(255 255 255 / 0%)), url(images/Banner\ Image.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.banner-content {
+    color: white;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-content h3 {
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+}
+
+/* Discount area style */
+
+.discount-content {
+    text-align: center;
+    margin: 100px 0;
+    font-family: "Roboto", serif;
+    
+}
+
+.discount-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.discount-content p {
+    font-weight: 500;
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.discount-content h2 {
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.discount-content img {
+    width: 500px;
+}
+
+/* Party area style */
+
+.party{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.959), rgb(255 255 255 / 0%)), url(images/Vectorrr.png);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.party-content {
+    width: 600px;
+    color: white;
+}
+
+.party-content h1 {
+    width: 400px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+}
+
+.party-content p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #d1d1d1;
+    width: 525px;
+    padding-bottom: 40px;
 }
